@@ -10,7 +10,7 @@ on:
 
 jobs:
   example_job:
-    name: Pass input and secrets to my-action
+    name: Pass input and secrets to main
     runs-on: ubuntu-latest
     steps:
       - uses: ./.github/workflows/main
